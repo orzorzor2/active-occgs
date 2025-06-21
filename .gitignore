@@ -1,0 +1,59 @@
+# Python相关
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 项目数据和结果
+data/
+results/
+wandb/
+tmp/
+*.log
+results_wtf
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 项目特定忽略
+# Liyan
+liyan
+src/slam/semsplatam
+src/slam/splatam_liyan
+
+# 大型文件和二进制文件
+*.npy
+*.npz
+*.pth
+*.ckpt
+*.pt
+*.bin
+*.onnx
+
+# 临时生成的内容
+generated/
+
